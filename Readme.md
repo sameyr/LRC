@@ -34,3 +34,4 @@ This guide provides a step-by-step walkthrough for setting up remote access to y
 
 3. Setting up Static Ip Address
     * This avoid ip address changes everytime, single board computer connects to the network
+    
