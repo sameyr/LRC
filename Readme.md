@@ -33,5 +33,8 @@ This guide provides a step-by-step walkthrough for setting up remote access to y
 
 
 3. Setting up Static Ip Address
-    * This avoid ip address changes everytime, single board computer connects to the network
-    
+    * This prevents the single-board computer from changing its IP address each time it connects to the network.
+    * To set a static IP address, users can access the Network Settings by using the "nm-connection-editor" command.
+    * A step-by-step guide for setting up a manual IP address can be found [here](staticIP.md).
+
+4. 
