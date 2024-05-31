@@ -39,8 +39,11 @@ This guide provides a step-by-step walkthrough for setting up remote access to y
 
 4. Set Up the Remote Laptop
    * Install an SSH Client
-        * On Windows: Use PowerShell or install an SSH client like PuTTY.
+        * On Windows: Use PowerShell or install an SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
         * On macOS/Linux: Use the terminal (SSH is pre-installed).
+          * if not, use command:
+              
+                * sudo apt install openssh-server         
         * Connect to the Raspberry Pi via SSH
 
    * Open your SSH client.
@@ -62,4 +65,3 @@ This guide provides a step-by-step walkthrough for setting up remote access to y
 If you encounter issues, check the SSH logs for errorsCheck SSH Logs:
 
         sudo journalctl -u ssh
-
