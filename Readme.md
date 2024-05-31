@@ -47,7 +47,7 @@ This guide provides a step-by-step walkthrough for setting up remote access to y
         * Connect to the Raspberry Pi via SSH
 
    * Open your SSH client.
-   * Enter the SSH command using the static IP address of the Raspberry Pi:
+   * Enter the SSH command using the static IP address of the Raspberry Pi (For windows, install PuTTY and  simply go to command line and enter):
        
                 ssh username@192.168.1.100
 
